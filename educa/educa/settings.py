@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'redisboard',
 
     'rest_framework',
+
+    'chat',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +79,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'educa.wsgi.application'
-
+ASGI_APPLICATION = 'educa.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
