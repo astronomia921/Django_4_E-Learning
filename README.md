@@ -49,6 +49,7 @@ python manage.py runserver
 # Используемые технологии
 * Python 3.10.11
 * Django 4
+* Django REST API
 * SQLite
 * HTML 
 * CSS
